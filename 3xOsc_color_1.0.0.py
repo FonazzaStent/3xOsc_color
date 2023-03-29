@@ -60,10 +60,10 @@ def CalculateVolumes(R,G,B):
     osc_one=False
     print ("\n")
     if saw==maxosc and osc_one==False:
-        print ("Saw: Oscillator 1")
+        print ("Triangle: Oscillator 1")
         osc_one=True
     else:
-        print ("Saw: ",saw)
+        print ("Triangle: ",saw)
     if square==maxosc and osc_one==False:
         print ("Square: Oscillator 1")
         osc_one=True
